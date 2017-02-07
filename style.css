@@ -1,9 +1,9 @@
 html{
-  background: #000;
+  background: url(//inq-sparker.ucoz.net/images/atlas-bg-blue.jpg);;
 }
 
 body{
-  background: #500; /*  url(//inq-sparker.ucoz.net/images/atlas-bg-blue.jpg); */
+  background: #500;
   height: 1125px;
   margin: auto;
   width: 1224px;
@@ -17,6 +17,7 @@ body{
   border-radius: 5px;
   height: 925px;
   margin: auto;
+  margin-top: 100px;
   position: relative;
   width: 1024px;
 }
