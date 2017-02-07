@@ -1,8 +1,24 @@
-body{
-    margin: auto;
-    width: 100%;
+html{
+  background: #000;
 }
 
-canvas{
-    width: 600px
+body{
+  background: #500; /*  url(//inq-sparker.ucoz.net/images/atlas-bg-blue.jpg); */
+  height: 1125px;
+  margin: auto;
+  width: 1224px;
 }
+
+.main-box{
+  /*display: block;*/
+  background: #777777;
+  border: 5px;
+  border-color: #aaaaaa;
+  border-radius: 5px;
+  height: 925px;
+  margin: auto;
+  position: relative;
+  width: 1024px;
+}
+
+
