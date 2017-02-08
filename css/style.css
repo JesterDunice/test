@@ -39,14 +39,41 @@ header{
   width: 200px;
 }
 
-.applist{
-  margin: 0;
-  padding: 20px 0 20px 0;
+.apphead{
+  margin: 20px;
+  padding: 0;
+  height: 40px;
 }
 
-.applist > p {
+.apphead > p > span > img{
+  float: right;
+  transition-duration: .8s;
+}
+
+.apphead > p > span > img:hover{
+  filter: invert(1);
+  transition-duration: .8s;
+}
+
+.apphead > p > span{
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: #333333;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: -6px;
+}
+
+.applist{
+  margin: 0 0 20px 20px;
+  padding: 0;
+}
+
+.applist > p{
   margin: 0;
-  padding: 0 0 10px 20px;
+  padding: 0 0 10px 0;
 }
 
 .applist > p > a{
@@ -59,26 +86,4 @@ header{
   vertical-align: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-.Apps {
-  font-size: 18px;
-  font-family: "OpenSans";
-  color: rgb( 51, 51, 51 );
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1;
-  text-align: left;
-  position: absolute;
-  left: 117.937px;
-  top: 205.872px;
-  z-index: 21;
-}
+.
