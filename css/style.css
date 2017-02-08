@@ -39,8 +39,14 @@ header{
   width: 200px;
 }
 
-.applist {
-  padding: 20px 0 0 20px;
+.applist{
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+.applist > p {
+  margin: 0;
+  padding: 0 0 10px 20px;
 }
 
 .applist > p > a{
