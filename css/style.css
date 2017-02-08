@@ -1,0 +1,37 @@
+html{
+  background: url(//inq-sparker.ucoz.net/images/atlas-bg-blue.jpg);
+}
+
+body{
+  background: #344366;
+  background: linear-gradient(to top, #344366, #746da4);
+  height: 1125px;
+  margin: auto;
+  margin-top: 100px;
+  width: 1224px;
+}
+
+/* main box */
+.main-box{
+  background-color: #f6f7fb;
+  border-radius: 5px;
+  height: 925px;
+  left: 100px;
+  top: 100px;
+  position: relative;
+  width: 1024px;
+}
+
+/* header */
+header{
+
+}
+
+/* left sidebar*/
+.lsidebar{
+  background: #fb5051;
+  /*height: 925px;*/
+  top: 60px;
+  width: 200px;
+  z-index: 3;
+}
