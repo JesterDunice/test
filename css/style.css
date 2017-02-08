@@ -146,22 +146,23 @@ header{
 }
 
 /* user profile managment*/
-.head{
+.comp-head{
   margin: 20px;
   padding: 0;
+  border-bottom: 1px solid #ccd0d9;
 }
 
-.apphead > p > span > img{
+.comp-head > p > span > img{
   float: right;
   transition-duration: .8s;
 }
 
-.apphead > p > span > img:hover{
+.comp-head > p > span > img:hover{
   filter: invert(1);
   transition-duration: .8s;
 }
 
-.apphead > p > span{
+.comp-head > p > span{
   font-size: 18px;
   font-family: "OpenSans";
   color: #333333;
