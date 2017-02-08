@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d20feb43-c5fd-4da4-9f24-d02b08076f04" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -125,20 +123,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -237,7 +221,7 @@
       <workItem from="1486471716024" duration="6018000" />
       <workItem from="1486535128648" duration="5014000" />
       <workItem from="1486542096754" duration="4553000" />
-      <workItem from="1486548520921" duration="7629000" />
+      <workItem from="1486548520921" duration="7701000" />
     </task>
     <task id="LOCAL-00001" summary="thrird">
       <created>1486451486519</created>
@@ -295,11 +279,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486552301883</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added avatars png">
+      <created>1486557757944</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1486557757944</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31944000" />
+    <option name="totallyTimeSpent" value="32016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="228" y="41" width="1692" height="959" extended-state="0" />
@@ -338,7 +329,8 @@
     <MESSAGE value="added logo files for leftside" />
     <MESSAGE value="added list of app" />
     <MESSAGE value="added list of app precision" />
-    <option name="LAST_COMMIT_MESSAGE" value="added list of app precision" />
+    <MESSAGE value="added avatars png" />
+    <option name="LAST_COMMIT_MESSAGE" value="added avatars png" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
