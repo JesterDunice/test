@@ -1,11 +1,7 @@
-html{
-  background: url(//inq-sparker.ucoz.net/images/atlas-bg-blue.jpg);
-}
-
 body{
   background: #344366;
   background: linear-gradient(to top, #344366, #746da4);
-  font-family: "Opensans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   height: 1125px;
   margin: auto;
   margin-top: 100px;
@@ -75,7 +71,7 @@ body{
   font-weight: bold;
   text-align: left;
   text-decoration: none;
-  vertical-align: -12px;
+  vertical-align: 10px;
 }
 
 .app-list{
@@ -226,4 +222,11 @@ body{
   text-decoration: none;
   vertical-align: 10px;
 }
+
+.pl-onclick:hover{
+  text-shadow: 0 0 5px #f00;
+
+}
+
+/* central area */
 
