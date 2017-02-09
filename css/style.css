@@ -26,13 +26,13 @@ body{
 }
 
 /* header */
-header{
-  width: 100%;
+.bizapp-logo{
+  border-bottom: 1px solid #ccd0d9;
+  border-top-left-radius: 5px;
   height: 60px;
   margin: 0;
   padding: 0;
-  background-color: #746da4;
-  opacity: .5;
+  background-color: #fff;
 }
 
 /* color inverting */
@@ -51,9 +51,9 @@ header{
   background: #f6f7fb;
   border-bottom-left-radius: 5px;
   border-right: 1px solid #ccd0d9;
-  border-top: 1px solid #ccd0d9;
+  border-top-left-radius: 5px;
   float: left;
-  height: 864px;
+  height: 100%;
   width: 200px;
 }
 
@@ -146,13 +146,37 @@ header{
   background: #f6f7fb;
   border-bottom-right-radius: 5px;
   border-left: 1px solid #ccd0d9;
-  border-top: 1px solid #ccd0d9;
+  border-top-right-radius: 5px;
   float: right;
-  height: 864px;
+  height: 100%;
   width: 200px;
 }
 
 /* user profile managment*/
+.profile-box{
+  border-bottom: 1px solid #ccd0d9;
+  border-top-right-radius: 5px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.profile-box > p{
+  margin: 0;
+  padding: 15px 20px 0 20px;
+}
+
+.profile-box > p > a {
+  color: #656D78;
+  font-size: 13px;
+  font-family: inherit;
+  padding-left: 10px;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: 10px;
+}
+
 .comp-logo{
   height: 160px;
   margin: 20px 20px 0 20px;
