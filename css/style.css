@@ -20,11 +20,15 @@ body{
   vertical-align: 10px;
 }
 
-  .small-text > span{
-    margin: 0 0 0 10px;
-    vertical-align: 10px;
-  }
+.small-text > span{
+  margin: 0 0 0 10px;
+  vertical-align: 10px;
+}
 
+button,
+button:active{
+  outline: none;
+}
 
 /* main box */
 .main-box{
@@ -232,35 +236,90 @@ body{
 
 /* input box*/
 .chat-box {
+  background: #f6f7fb;
   height: 140px;
   border-left: 1px solid #ccd0d9;
   border-right: 1px solid #ccd0d9;
+  margin: 0;
+  padding: 0;
 }
 
-.chat-box > textarea {
-  margin: 20px 0 0 20px;
+.post-area{
+  background-color: #fff;
   border: 1px solid #ccd0d9;
-  font: 13px/22px "Open Sans";
-  border-radius: 5px;
+  border-bottom: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 0px 20px;
+  height: 50px;
+}
+
+.post-area > textarea {
+  border: none;
+  height: 2em;
+  margin: 20px;
   resize: none;
   width: calc(100% - 40px);
+  color: #656D78;
+  font-size: 13px;
+  font-family: inherit;
 }
 
-button {
-  float: right;
-  color: blue;
-  font-size: 16px;
-  text-transform: uppercase;
+.post-area > textarea::-webkit-input-placeholder{
+  color: #574ec1;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+textarea:active,
+textarea:focus{
+  outline: none;
+}
+
+.post-but{
+  background-color: #fff;
+  border: 1px solid #ccd0d9;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0 20px;
+  height: 50px;
+}
+
+.post-but > button {
+  background: #574ec1;
   border: none;
+  border-radius: 3px;
+  color: white;
   cursor: pointer;
-  font-weight: bold;
-  background: #F2F5F8;
+  float: right;
+  font-size: 13px;
+  height: 30px;
+  text-transform: uppercase;
+  width: 80px;
+  margin: 0px 20px 0 0;
 }
 
-&:hover {
-   color: darken(blue, 7%);
+.post-but > button:hover {
+  filter: hue-rotate(45deg);
+}
+
+.post-but > button:focus{
+  border: none;
 }
 
 @media screen and (max-width: 1200px) { div.contentblock {width: 1200px;} }
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
 @media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
+
+.Type_your_message___ {
+  font-size: 13px;
+  font-family: "Open Sans";
+  color: rgb( 87, 78, 193 );
+  line-height: 1.385;
+  text-align: left;
+  position: absolute;
+  left: 339.891px;
+  top: 938.86px;
+  z-index: 122;
+}
