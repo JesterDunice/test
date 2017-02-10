@@ -25,7 +25,7 @@
     </div>
 
     <div class="app-head large-text">
-      <p><span>APP</span> <span><img src="images/add-app.png" class="color-invert"/></span></p>
+      <p><span>APP</span> <span><button class="app-add-but color-invert"></button></span></p>
     </div>
 
     <div class="app-list cursor-hover">
@@ -62,13 +62,13 @@
   <div class="rsidebar">
 
     <div class="profile-box">
-      <p><a href="" class="small-text"><img src="images/fazer-avatar.png"/><img src="images/pic-sleep.png" alt="sleep" class="avat-state"/><span>Fazer H.</span></a><img src="images/list-profile-but.png" class="color-invert"/></p>
+      <p><a href="" class="small-text"><img src="images/fazer-avatar.png"/><img src="images/pic-sleep.png" alt="sleep" class="avat-state"/><span>Fazer H.</span></a><button class="profile-state-but color-invert"></button></p>
     </div>
     <div class="comp-logo">
       <img src="images/company-logo.png" width="100%"/>
     </div>
     <div class="comp-head large-text">
-      <p><span>Company Inc.</span> <span><img src="images/profile-settings.png" class="color-invert"/></span></p>
+      <p><span>Company Inc.</span><button class="comp-settings-but color-invert"></button></p>
     </div>
 
     <div class="profile-list cursor-hover">
@@ -88,17 +88,122 @@
     <div class="top-menu">
 
     </div>
-
+    <!-- message history box -->
     <div class="history-box">
+
+      <div class="utility-hb">
+
+        <div class="avatar-time">
+
+          <div class="float-left">
+            <img src="images/jonas-freitag-avatar.png"/><span>Jonas Freitag</span>
+          </div>
+          <div
+            class="float-right time-text"><span>2 hours ago</span>
+          </div>
+
+        </div>
+
+        <div class="message-history">
+
+          <div class="comment-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla neque, faucibus et massa eu, eleifend commodo ex. Morbi posuere tortor vitae risus euismod, eu eleifend lectus congue.
+          </div>
+          <div class="like-reply-container">
+            <a href="" class="like-reply-text">Like</a><span class="time-text"> (5) &#183 </span><a href="" class="like-reply-text">Reply</a> <span class="time-text">(2)</span>
+          </div>
+
+        </div>
+
+        <div class="avatar-time">
+
+          <div class="float-left">
+            <img src="images/sue-tyson-avatar.png"/><span>Sue Tyson-Ward</span>
+          </div>
+          <div
+            class="float-right time-text"><span>2 hours ago</span>
+          </div>
+
+        </div>
+
+        <div class="message-history">
+
+          <div class="comment-text">
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diem
+            nonummy nibh euismod tincidunt ut lacreet dolore magna aliguam erat volutpat.
+            Ut wisis enim ad minim veniam, quis nostrud exerci tution ullamcorper suscipit
+            lobortis nisl ut aliquip ex ea commodo consequat.
+          </div>
+          <div class="like-reply-container">
+            <a href="" class="like-reply-text">Like</a><span class="time-text"> (5) &#183 </span><a href="" class="like-reply-text">Reply</a> <span class="time-text">(2)</span>
+          </div>
+
+        </div>
+
+        <div class="avatar-time">
+
+          <div class="float-left">
+            <img src="images/def-avatar.png"/><span>Yue Reed</span>
+          </div>
+          <div
+            class="float-right time-text"><span>1 hour ago</span>
+          </div>
+
+        </div>
+
+        <div class="message-history">
+
+          <div class="comment-text">
+            Specifying content in a stylesheet can cause complications. For example, you might have different language versions of your document that share a stylesheet. If part of the stylesheet has to be translated, it means that you must put those parts of the stylesheet in separate files and arrange for them to be linked with the appropriate language versions of your document.
+
+            These complications do not arise if the content you specify consists of symbols or images that apply in all languages and cultures.
+
+            Content specified in a stylesheet does not become part of the DOM.
+          </div>
+          <div class="like-reply-container">
+            <a href="" class="like-reply-text">Like</a><span class="time-text"> (8) &#183 </span><a href="" class="like-reply-text">Reply</a> <span class="time-text">(2)</span>
+          </div>
+
+        </div>
+        <div class="avatar-time">
+
+          <div class="float-left">
+            <img src="images/jonas-freitag-avatar.png"/><span>Jonas Freitag</span>
+          </div>
+          <div
+            class="float-right time-text"><span>1 hour ago</span>
+          </div>
+
+        </div>
+
+        <div class="message-history">
+
+          <div class="comment-text">
+            he character set of a stylesheet is UTF-8 by default, but it can be specified in the link, or in the stylesheet itself, or in other ways. For details, see 4.4 CSS style sheet representation in the CSS Specification.
+
+            Individual characters can also be specified by an escape mechanism that uses backslash as the escape character. For example, \265B is the chess symbol for a black queen ♛. For details, see Referring to characters not represented in a character encoding and also Characters and case in the CSS Specification.
+          </div>
+          <div class="like-reply-container">
+            <a href="" class="like-reply-text">Like</a><span class="time-text"> (7) &#183 </span><a href="" class="like-reply-text">Reply</a> <span class="time-text">(6)</span>
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
 
+    <!-- chat box -->
     <div class="chat-box">
 
-      <div class="post-area">
-        <textarea name="message-to-send" id="message-to-send" placeholder ="Type your message" rows="3"></textarea>
-      </div><div class="post-but">
-        <button>POST</button>
+      <div class="utility-cb">
+
+        <div class="post-area">
+          <textarea name="message-to-send" id="message-to-send" placeholder ="Type your message" rows="3"></textarea>
+          <button class="post-but">POST</button>
+          <button class="smile-button"></button>
+        </div>
+
       </div>
 
     </div>
