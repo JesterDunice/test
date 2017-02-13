@@ -34,16 +34,15 @@ body{
   font-family: inherit;
   color: #CCCFD8;
   margin: 0;
-  padding: 0;
+  padding: 7px 2px 0 0;
   text-align: right;
-  vertical-align: 10px;
 }
 
 .comment-text{
   font-size: 13px;
   font-family: inherit;
   font-style: italic;
-  color: #ABB0BB;
+  color: rgb( 170, 178, 189 );
   text-align: left;
 }
 
@@ -60,7 +59,7 @@ body{
 }
 
 .pad-lr-5px{
-  padding: 0 4px 0 4px;
+  padding: 0 3px 0 3px;
 }
 
 .main-feed-text{
@@ -444,9 +443,10 @@ chat-room-menu > li > a > span{
 }
 
 .avatar-time{
+  position: relative;
   border-bottom: 1px solid #ccd0d9;
   height: 30px;
-  padding: 20px 0 20px 0;
+  padding: 19px 0 20px 0;
   color: #656D78;
   font-size: 13px;
   font-family: inherit;
@@ -456,16 +456,16 @@ chat-room-menu > li > a > span{
 
 .avatar-time > div{
   height: 30px;
-  width: calc((100% - 40px)/2);
+  width: 100%;
 }
 
 .avatar-time > div > span{
-  vertical-align: 10px;
+  vertical-align: 11px;
   padding-left: 9px;
 }
 
 .message-history{
-  padding: 20px 0 20px 0;
+  padding: 16px 0 14px 0;
   border-bottom: 1px solid #ccd0d9;
 
 }
@@ -543,10 +543,6 @@ textarea:focus{
   filter: hue-rotate(45deg);
 }
 
-.post-but:focus{
-  border: none;
-}
-
 .smile-button{
   cursor: pointer;
   position: absolute;
@@ -566,29 +562,3 @@ textarea:focus{
 @media screen and (max-width: 1200px) { div.contentblock {width: 1200px;} }
 @media screen and (max-width: 1140px) { div.contentblock {width: 1024px;} }
 @media screen and (max-width: 992px) { div. contentblock {width: 970px;} }
-
-.MAIN_FEED {
-  font-size: 13px;
-  font-family: "Open Sans";
-  color: #5A4DC6;
-  font-weight: bold;
-  line-height: 3.077;
-  text-align: left;
-  position: absolute;
-  left: 358.828px;
-  top: 161.86px;
-  z-index: 197;
-}
-
-.MAIN_FEED {
-  font-size: 13px;
-  font-family: "Open Sans";
-  color: #656D78;
-  line-height: 3.077;
-  text-align: left;
-  position: absolute;
-  left: 358.703px;
-  top: 161.86px;
-  z-index: 386;
-}
-
