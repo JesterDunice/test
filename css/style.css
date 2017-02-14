@@ -522,47 +522,6 @@ button:active{
   top: 14px;
 }
 
-/*.chat-room-menu > li:first-child > a{
-  position: absolute;
-  height: 30px;
-}
-
-.chat-room-menu > li:first-child > a > span{
-  padding: 0 9px;
-}
-
-.chat-room-menu > li:nth-child(2){
-  height: 45px;
-  margin-left: 18px;
-  width: 156px;
- }
-
-.chat-room-menu > li:nth-child(2) > a {
-  position: absolute;
-  height: 30px;
-  top: 14px;
-}
-
-.chat-room-menu > li:nth-child(2) > a > span {
-  padding: 0;
-}
-
-
-.chat-room-menu > li:nth-child(3){
-  height: 45px;
-  margin-left: 36px;
-  width: 163px;
-}
-
-.chat-room-menu > li:nth-child(3) > a {
-  position: absolute;
-  height: 30px;
-  top: 14px;
-}
-
-chat-room-menu > li > a > span{
-  padding: 0 9px;
-}*/
 .close-chat-but{
   float: right;
   cursor: pointer;
